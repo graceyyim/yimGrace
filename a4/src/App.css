@@ -1,0 +1,86 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+h1, h2 {
+  text-align: left;
+  margin-left: 40px;
+}
+
+
+input{
+  background-color: rgb(194, 222, 247);
+  align-items: center;
+  padding: 20px;
+  margin-left: 150px;;
+}
+
+button{
+  padding: 10px;
+  width: 100px;
+  background-color: white;
+  font-size: 0.9em;
+}
+
+
+.question {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  margin: 10px;
+}
+
+img {
+  width: 60%;
+  margin: auto;
+}
+
+.history {
+  border: 1px solid black;
+  background-color:  rgb(194, 222, 247);
+  display: grid;
+  margin-right: 40px;
+}
+.answer {
+  border: 1px solid black;
+  background-color:  rgb(194, 222, 247);
+  text-align: center;
+  align-items: center;
+  padding: 30px;
+  margin-right: 150px;
+  margin-left: 150px;
+}
